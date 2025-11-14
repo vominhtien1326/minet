@@ -7,5 +7,5 @@ RUN apt-get update && apt-get install -y curl bash
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
-# Chạy script
+# Chạy script khi container start
 CMD ["/run.sh"]
